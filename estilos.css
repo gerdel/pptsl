@@ -36,10 +36,10 @@ img[name="pptsl"]{
 .proceso > h1 {
 	position:absolute;
 	text-align:center;
-	top:17.8em;
-	left:0em;
-	width:100%;
+	top:16em;
+	width:40%;
 	color:#242830;
+	margin:0 auto;
 }
 .subProceso,.subProceso1,.subProceso2{
 	float:left;

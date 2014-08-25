@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Juega Piedra, Papel y Tijeras</title>
+	<meta name="viewport" content="width=device-width" >
+	<link href="estilos.css" rel="stylesheet">
+	<script type="text/javascript" src="code.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>	
+	<header>
+		<h1>Disfruta jugando Piedra Papel Tijera Spock y Lagarto</h1>
+	</header>
+
+	<div class="usuario">
+		<h1>USUARIO</h1>
+		<p>Intruciones: Pulsa cualquiera de las imagenes, según sea tu desición.</p>
+		<img src="img/piedra.png" name="pptsl" id="piedraa" title="Piedra"><br />
+		<img src="img/papel.png" name="pptsl" id="papell" title="Papel"><br />
+		<img src="img/tijera.png" name="pptsl" id="tijera" title="Tijera"><br />
+		<img src="img/spock.png" name="pptsl" id="spock" title="Spock"><br />
+		<img src="img/lagarto.png" name="pptsl" id="lagarto" title="Lagarto">
+	</div>
+
+	<div class="proceso">
+		<div class="subProceso">
+			<img id="mostrada">
+			<p id="contenido"></p>
+		</div>	
+
+		<div class="subProceso1">
+			<p id="epg"></p>
+			<img id="gerson">
+		</div>
+
+		<div class="subProceso2">
+			<img id="mostradaMaquina">
+			<p id="contenidoMaquina"></p>
+		</div>
+		
+		<h1>VS</h1>
+		
+	</div>
+
+	<div class="maquina">
+		<h1>MAQUINA</h1>
+		<p>Intruciones: Aqui la Maquina toma la desición que es lo que va ha elegir.</p>
+		<img src="img/piedra.png" name="pptsl"  title="Piedra"><br />
+		<img src="img/papel.png" name="pptsl"  title="Papel"><br />
+		<img src="img/tijera.png" name="pptsl" title="Tijera"><br />
+		<img src="img/spock.png" name="pptsl"  title="Spock"><br />
+		<img src="img/lagarto.png" name="pptsl" title="Lagarto">
+	</div>
+
+	<div class="instrucciones">
+		<h2>Instrucciones</h2>
+		<p><strong>1) </strong>Tijeras cortan Papel.</p>
+		<p><strong>2) </strong>Papel tapa a Piedra.</p>
+		<p><strong>3) </strong>Piedra aplasta a Lagarto.</p>
+		<p><strong>4) </strong>Lagarto envenena a Spock.</p>
+		<p><strong>5) </strong>Spock rompe Tijeras.</p>
+		<p><strong>6) </strong>Tijeras decapitan a Lagarto.</p>
+		<p><strong>7) </strong>Lagarto devora Papel.</p>
+		<p><strong>8) </strong>Papel desautoriza a Spock</p>
+		<p><strong>9) </strong>Spock vaporiza a Piedra</p>
+		<p><strong>10) </strong>Piedra aplasta a Tijeras.</p>
+	</div>
+
+	<footer>
+		<h2> Creado por Gerson Ortiz</h2>
+		<img src="img/gracias.gif" name="gracias"><br />
+		<a href="https://twitter.com/GersonNOV"><img src="img/logo.png"></a><br />
+		<a href="https://mejorando.la"><img src="img/mejorandola.png"></a>
+	</footer>
+	<script>
+		Combinado();
+	</script>
+</body>
+</html>

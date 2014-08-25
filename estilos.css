@@ -26,6 +26,7 @@ img[name="pptsl"]{
 	position:relative;
 	width:16%;
 	text-align:center;
+	cursor:pointer;
 }
 .proceso{
 	background-color:#1980de;
@@ -35,7 +36,7 @@ img[name="pptsl"]{
 .proceso > h1 {
 	position:absolute;
 	text-align:center;
-	top:15em;
+	top:17.8em;
 	left:0em;
 	width:100%;
 	color:#242830;

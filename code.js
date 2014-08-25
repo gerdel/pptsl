@@ -30,7 +30,7 @@ function piedra(){
 			zero.src="img/perdiste.gif";
 			imagen.src="img/papel.png";
 		}else if(maquina == tijera){
-			info.innerHTML="GANASTES ;)";
+			info.innerHTML="GANASTE ;)";
 			imagen.src="img/tijera.png";
 			zero.src="img/ganaste.gif";
 		}else if(maquina == spock){
@@ -38,7 +38,7 @@ function piedra(){
 			imagen.src="img/spock.png";
 			zero.src="img/perdiste.gif";
 		}else if(maquina == lagarto) {
-			info.innerHTML="GANASTES ;) ";
+			info.innerHTML="GANASTE ;) ";
 			imagen.src="img/lagarto.png";
 			zero.src="img/ganaste.gif";
 			
@@ -63,7 +63,7 @@ function papel(){
 			document.getElementById("mostradaMaquina").src=imagen;
 			document.getElementById("contenidoMaquina").innerHTML=cadenas[m];
 		if(m == p){
-			info.innerHTML="GANASTES ;) ";
+			info.innerHTML="GANASTE ;) ";
 			imagen.src="img/piedra.png";
 			zero.src="img/ganaste.gif";
 		}else if (m == pa){
@@ -75,7 +75,7 @@ function papel(){
 			imagen.src="img/tijera.png";
 			zero.src="img/perdiste.gif";
 		}else if(m == s){
-			info.innerHTML="GANASTES ;)";
+			info.innerHTML="GANASTE ;)";
 			imagen.src="img/spock.png";
 			zero.src="img/ganaste.gif";
 		}else if(m == l) {
@@ -107,7 +107,7 @@ function tijera(){
 			imagen.src="img/piedra.png";
 			zero.src="img/perdiste.gif";;
 		}else if (ma == pap){
-			info.innerHTML="GANASTES ;)";
+			info.innerHTML="GANASTE ;)";
 			imagen.src="img/papel.png";
 			zero.src="img/ganaste.gif";
 		}else if(ma == ti){
@@ -119,7 +119,7 @@ function tijera(){
 			imagen.src="img/spock.png";
 			zero.src="img/perdiste.gif";
 		}else if(ma == la) {
-			info.innerHTML="GANASTES ;) ";
+			info.innerHTML="GANASTE ;) ";
 			imagen.src="img/lagarto.png";
 			zero.src="img/ganaste.gif";
 		}
@@ -143,7 +143,7 @@ function spock(){
 			document.getElementById("mostradaMaquina").src=imagen;
 			document.getElementById("contenidoMaquina").innerHTML=cadenas[maq];
 		if(maq == pie){
-			info.innerHTML="GANASTES ;) ";
+			info.innerHTML="GANASTE ;) ";
 			imagen.src="img/piedra.png";
 			zero.src="img/ganaste.gif";
 		}else if (maq == pape){
@@ -151,7 +151,7 @@ function spock(){
 			imagen.src="img/papel.png";
 			zero.src="img/perdiste.gif";
 		}else if(maq == tij){
-			info.innerHTML="GANASTES ;)";
+			info.innerHTML="GANASTE ;)";
 			imagen.src="img/tijera.png";
 			zero.src="img/ganaste.gif";
 		}else if(maq == spo){
@@ -187,7 +187,7 @@ function lagarto(){
 			imagen.src="img/piedra.png";
 			zero.src="img/perdiste.gif";
 		}else if (maqu == papell){
-			info.innerHTML="GANASTES ;) ";
+			info.innerHTML="GANASTE ;) ";
 			imagen.src="img/papel.png";
 			zero.src="img/ganaste.gif";
 		}else if(maqu == tije){
@@ -195,7 +195,7 @@ function lagarto(){
 			imagen.src="img/tijera.png";
 			zero.src="img/perdiste.gif"
 		}else if(maqu == spoc){
-			info.innerHTML="GANASTES ;)";
+			info.innerHTML="GANASTE ;)";
 			imagen.src="img/spock.png";
 			zero.src="img/ganaste.gif";
 		}else if(maqu == laga) {
